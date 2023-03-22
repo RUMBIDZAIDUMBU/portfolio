@@ -1,0 +1,471 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ”;
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+.hero-section {
+  background-image: url(img/pexels-jéshoots-218863.jpg);
+  height: 100vh;
+  background-color: #060707;
+  font-family: "Montserrat-Regular";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.hero-section .intro {
+  margin-left: 50px;
+  padding-top: 300px;
+  font-size: 50px;
+  color: rgb(0, 151, 121);
+}
+.hero-section .intro h1 {
+  position: relative;
+  margin-right: 250px;
+}
+.hero-section .intro1 {
+  margin-left: 50px;
+}
+.hero-section .intro1 h2 {
+  padding-top: 10px;
+  color: white;
+}
+.hero-section .intro1 p {
+  padding-top: 15px;
+  color: white;
+}
+.hero-section .button {
+  padding-top: 40px;
+}
+.hero-section .button .Enquire {
+  background-color: gray;
+  padding: 15px 25px;
+  color: white;
+  border-color: rgb(0, 151, 121);
+  margin-left: 50px;
+}
+
+.nav {
+  position: absolute;
+  margin-left: 800px;
+  top: 0%;
+  text-decoration: none;
+  font-family: "Montserrat-Regular";
+}
+.nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 30px;
+  font-family: "GothamBold";
+  font-size: 20px;
+}
+
+.logo {
+  position: relative;
+  font-family: "Montserrat-Regular";
+}
+.logo .container-fluid {
+  position: absolute;
+  color: rgb(0, 151, 121);
+  padding-top: 20px;
+  font-size: 30px;
+  top: 0%;
+}
+.logo .navbar-text {
+  position: absolute;
+  font-family: "gotham regular";
+  margin-left: 50px;
+}
+
+.bold {
+  border: 1px solid white;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.About {
+  background-color: #000;
+  font-family: "Montserrat-Regular";
+}
+.About h2 {
+  padding-top: 40px;
+  margin-left: 50px;
+  font-size: 40px;
+  color: white;
+}
+.About h3 {
+  padding-top: 50px;
+  color: white;
+}
+.About .me {
+  width: 380px;
+  padding-top: 20px;
+  color: white;
+}
+.About .picture img {
+  width: 100%;
+  height: 57vh;
+  position: absolute;
+  top: -47.5%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 60%;
+}
+.About .circle {
+  background-color: rgb(0, 151, 121);
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.About .button {
+  padding-top: 40px;
+}
+.About .button .Enquire {
+  background-color: rgb(0, 151, 121);
+  padding: 15px 25px;
+  color: white;
+  border-color: rgb(0, 151, 121);
+}
+
+.skills {
+  background-color: #000;
+  color: white;
+  font-family: "Montserrat-Regular";
+  position: relative;
+}
+.skills h1 {
+  font-size: 40px;
+  margin-left: 70px;
+  padding-top: 40px;
+}
+.skills h2 {
+  margin-left: 70px;
+  position: absolute;
+  top: 40%;
+  font-family: "Montserrat-Bold";
+  background-repeat: no-repeat;
+}
+.skills .innerskills {
+  position: relative;
+}
+.skills .innerskills p {
+  position: absolute;
+  top: 15%;
+}
+.skills .icons {
+  padding-top: 80px;
+}
+.skills .first {
+  margin-bottom: 70px;
+}
+.skills .second {
+  margin-bottom: 80px;
+}
+
+.portfolio {
+  background-color: #000;
+}
+.portfolio h1 {
+  font-size: 40px;
+  margin-left: 70px;
+  padding-top: 40px;
+  color: white;
+}
+.portfolio .Portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.portfolio .Portfolio .slide-container {
+  max-width: 1120px;
+  width: 100%;
+}
+.portfolio .Portfolio .slide-container .slide-content {
+  margin: 0 60px;
+  overflow: hidden;
+}
+.portfolio .Portfolio .slide-container .slide-content .card {
+  border-radius: 5px;
+  background-color: rgb(68, 67, 67);
+  border: 1px solid rgb(0, 151, 121);
+}
+.portfolio .Portfolio .slide-container .slide-content .card .card-image {
+  position: relative;
+  height: 350px;
+  width: 150px;
+  padding: 3px;
+}
+.portfolio .Portfolio .slide-container .slide-content .card .card-image .card-img {
+  height: 50%;
+  width: 200%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2%;
+}
+.portfolio .Portfolio .slide-container .image-content,
+.portfolio .Portfolio .slide-container .card-content {
+  padding: 10px 14px;
+}
+.portfolio .Portfolio .slide-container .image-content .name,
+.portfolio .Portfolio .slide-container .card-content .name {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 50%;
+}
+.portfolio .Portfolio .slide-container .image-content .description,
+.portfolio .Portfolio .slide-container .card-content .description {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 60%;
+}
+.portfolio .Portfolio .slide-container .image-content {
+  row-gap: 5px;
+}
+.portfolio .Portfolio .slide-container .buttton {
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 12px 16px;
+  background-color: rgb(0, 151, 121);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3 ease;
+  top: 80%;
+}
+.portfolio .Portfolio .slide-container .buttton:hover {
+  background: #707070;
+}
+.portfolio .Portfolio .swiper-navBtn {
+  color: rgb(0, 151, 121);
+  transition: color 0.3s ease;
+}
+.portfolio .Portfolio .swiper-navBtn:hover {
+  color: #707070;
+}
+.portfolio .Portfolio .swiper-navBtn::before,
+.portfolio .Portfolio .swiper-navBtn::after {
+  font-size: 40px;
+}
+.portfolio .Portfolio .swiper-button-next {
+  right: 0;
+}
+.portfolio .Portfolio .swiper-button-prev {
+  left: 0;
+}
+.portfolio .Portfolio .swiper-pagination-bullets {
+  color: rgb(0, 151, 121);
+  opacity: 1;
+}
+.portfolio .Portfolio .swiper-pagination-bullets-active {
+  color: rgb(0, 151, 121);
+  opacity: 1;
+}
+
+.Contact .contact-section {
+  background-color: black;
+}
+.Contact .contact-section h1 {
+  text-align: center;
+  color: white;
+}
+.Contact .contact-section p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.283);
+}
+.Contact .contact-section .boarder {
+  width: 100px;
+  height: 10px;
+  background: rgb(0, 151, 121);
+  margin: 40px auto;
+}
+.Contact .contact-section .contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.Contact .contact-section .contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.Contact .contact-section .contact-form-text:hover {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+.Contact .contact-section textarea.contact-form-text {
+  height: 120px;
+}
+.Contact .contact-section .contact-form-btn {
+  border: 0;
+  background: rgb(0, 151, 121);
+  color: #FFF;
+  padding: 12px 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 60px;
+}
+
+.Footer .footer {
+  width: 100%;
+  padding: 60px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+.Footer .footer div {
+  text-align: center;
+}
+.Footer .footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.Footer .footer .col-2 {
+  flex-grow: 2;
+}
+.Footer .footer .col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.Footer .footer form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+.Footer .footer form button {
+  background: transparent;
+  border: 2px solid rgb(0, 151, 121);
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.Footer .footer .social-icons {
+  margin-top: 30px;
+}
+.Footer .footer .social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
